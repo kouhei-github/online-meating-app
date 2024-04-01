@@ -43,7 +43,7 @@ const MeetingTypeList = () => {
       })
       setCallDetails(call)
 
-      toast({title: "SMeeting Created"})
+      toast({title: "Meeting Created"})
 
       if(!values.description) {
         router.push(`/meeting/${call.id}`)
