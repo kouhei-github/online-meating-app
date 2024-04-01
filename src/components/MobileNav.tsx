@@ -21,7 +21,7 @@ const MobileNav = () => {
             alt={"ハンバーガーメニュー"}
             width={36}
             height={36}
-            className={"cursor-pointer sm:hidden"}
+            className={"cursor-pointer block md:hidden"}
           />
         </SheetTrigger>
         <SheetContent side={"left"} className={"border-none bg-dark-1"}>
