@@ -28,7 +28,7 @@ const MeetingTypeList = () => {
   const createMeeting = async () => {
     if(!user || !client) return
     try {
-      if (!values.dateTime) return toast({title: "Sprease select a date and time"})
+      if (!values.dateTime) return toast({title: "please select a date and time"})
 
       const id = crypto.randomUUID()
       const call = client.call("default", id)
